@@ -1,0 +1,1312 @@
+DEPRECATION: ember-cli-babel 5.x has been deprecated. Please upgrade to at least ember-cli-babel 6.6. Version 5.2.8 located: ember-validations -> Ember CLI QUnit -> ember-cli-babel
+DEPRECATION: ember-cli-babel 5.x has been deprecated. Please upgrade to at least ember-cli-babel 6.6. Version 5.2.8 located: ember-validations -> ember-cli-test-loader -> ember-cli-babel
+DEPRECATION: ember-cli-babel 5.x has been deprecated. Please upgrade to at least ember-cli-babel 6.6. Version 5.2.8 located: ember-validations -> ember-export-application-global -> ember-cli-babel
+DEPRECATION: ember-cli-babel 5.x has been deprecated. Please upgrade to at least ember-cli-babel 6.6. Version 5.2.8 located: ember-validations -> ember-resolver -> ember-cli-babel
+DEPRECATION: ember-cli-babel 5.x has been deprecated. Please upgrade to at least ember-cli-babel 6.6. Version 5.2.8 located: ember-validations -> ember-suave -> ember-cli-babel
+DEPRECATION: ember-cli-babel 5.x has been deprecated. Please upgrade to at least ember-cli-babel 6.6. Version 5.2.8 located: ember-validations -> ember-test-container -> ember-cli-babel
+DEPRECATION: Node v9.11.2 is no longer supported by Ember CLI. We recommend that you use the most-recent "Active LTS" version of Node.js. See https://git.io/v7S5n for details.
+WARNING: Node v9.11.2 is not tested against Ember CLI on your platform. We recommend that you use the most-recent "Active LTS" version of Node.js. See https://git.io/v7S5n for details.
+Could not start watchman
+Visit https://ember-cli.com/user-guide/#watchman for more info.
+DEPRECATION: ember-cli-babel 5.x has been deprecated. Please upgrade to at least ember-cli-babel 6.6. Version 5.2.8 located: /Users/bsl/repos/ember-validations/node_modules/ember-cli-qunit/node_modules/ember-cli-babel
+DEPRECATION: Addon files were detected in `/Users/bsl/repos/ember-validations/node_modules/ember-load-initializers/addon`, but no JavaScript preprocessors were found for `ember-load-initializers`. Please make sure to add a preprocessor (most likely `ember-cli-babel`) to in `dependencies` (NOT `devDependencies`) in `ember-load-initializers`'s `package.json`.
+Environment: test
+
+addon/errors.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/errors.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/errors.js: line 3, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/errors.js: line 10, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+addon/errors.js: line 11, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+5 errors
+
+addon/index.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/index.js: line 3, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+addon/index.js: line 4, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+addon/index.js: line 5, col 12, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+4 errors
+
+addon/messages.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/messages.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/messages.js: line 3, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/messages.js: line 5, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+addon/messages.js: line 6, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/messages.js: line 8, col 21, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+addon/messages.js: line 10, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/messages.js: line 11, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+8 errors
+
+addon/mixin.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/mixin.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/mixin.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/mixin.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 5, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 21, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 23, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 24, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 24, col 65, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+addon/mixin.js: line 32, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 33, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 38, col 62, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 38, col 69, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 38, col 95, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+addon/mixin.js: line 44, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 45, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 46, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 47, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 48, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 59, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 59, col 43, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+addon/mixin.js: line 60, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 60, col 44, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+addon/mixin.js: line 65, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 65, col 44, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+addon/mixin.js: line 70, col 43, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+addon/mixin.js: line 71, col 44, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+addon/mixin.js: line 82, col 8, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+addon/mixin.js: line 89, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 90, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 94, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 98, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 99, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 106, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+addon/mixin.js: line 108, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 109, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+addon/mixin.js: line 122, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+addon/mixin.js: line 124, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 125, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 126, col 12, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 127, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 136, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 138, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+addon/mixin.js: line 144, col 19, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+addon/mixin.js: line 151, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 152, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 163, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 164, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 164, col 50, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+addon/mixin.js: line 166, col 68, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/mixin.js: line 166, col 68, Too many errors. (73% scanned).
+
+51 errors
+
+addon/patterns.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/patterns.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/patterns.js: line 3, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/patterns.js: line 5, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+
+4 errors
+
+addon/validators/base.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/base.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/base.js: line 3, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/base.js: line 13, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+addon/validators/base.js: line 14, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/base.js: line 31, col 58, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+addon/validators/base.js: line 32, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/base.js: line 40, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/base.js: line 47, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/base.js: line 51, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/base.js: line 52, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/base.js: line 61, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/base.js: line 62, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+addon/validators/base.js: line 64, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/base.js: line 85, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/base.js: line 115, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+16 errors
+
+addon/validators/local/absence.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/absence.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/absence.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/absence.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/absence.js: line 5, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/absence.js: line 7, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/absence.js: line 8, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/absence.js: line 9, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/absence.js: line 19, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+9 errors
+
+addon/validators/local/acceptance.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/acceptance.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/acceptance.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/acceptance.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/acceptance.js: line 5, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/acceptance.js: line 7, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/acceptance.js: line 8, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/acceptance.js: line 9, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/acceptance.js: line 20, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+9 errors
+
+addon/validators/local/confirmation.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/confirmation.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/confirmation.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/confirmation.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/confirmation.js: line 5, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/confirmation.js: line 7, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/confirmation.js: line 8, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/confirmation.js: line 10, col 21, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/confirmation.js: line 11, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/confirmation.js: line 20, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/confirmation.js: line 21, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/confirmation.js: line 22, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+12 errors
+
+addon/validators/local/exclusion.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/exclusion.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/exclusion.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/exclusion.js: line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/exclusion.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/exclusion.js: line 6, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/exclusion.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/exclusion.js: line 7, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/exclusion.js: line 9, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/exclusion.js: line 10, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/exclusion.js: line 11, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/exclusion.js: line 20, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/exclusion.js: line 22, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/exclusion.js: line 23, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+14 errors
+
+addon/validators/local/format.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/format.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/format.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/format.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/format.js: line 5, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/format.js: line 7, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/format.js: line 8, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/format.js: line 9, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/format.js: line 19, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+9 errors
+
+addon/validators/local/inclusion.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/inclusion.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/inclusion.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/inclusion.js: line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/inclusion.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/inclusion.js: line 6, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/inclusion.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/inclusion.js: line 7, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/inclusion.js: line 9, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/inclusion.js: line 10, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/inclusion.js: line 11, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/inclusion.js: line 21, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/inclusion.js: line 22, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/inclusion.js: line 23, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+14 errors
+
+addon/validators/local/length.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/length.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/length.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/length.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/length.js: line 5, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/length.js: line 7, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/length.js: line 8, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/length.js: line 9, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/length.js: line 10, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/length.js: line 12, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/length.js: line 29, col 63, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/length.js: line 44, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/length.js: line 52, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/length.js: line 56, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/length.js: line 60, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/length.js: line 61, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/length.js: line 62, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/length.js: line 71, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/length.js: line 79, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/length.js: line 80, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/length.js: line 81, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+21 errors
+
+addon/validators/local/numericality.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/numericality.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/numericality.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/numericality.js: line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/numericality.js: line 5, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/numericality.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/numericality.js: line 7, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/numericality.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/numericality.js: line 8, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/numericality.js: line 10, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/numericality.js: line 11, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/numericality.js: line 13, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/numericality.js: line 14, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/numericality.js: line 15, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/numericality.js: line 17, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/numericality.js: line 40, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/numericality.js: line 67, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/numericality.js: line 68, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/numericality.js: line 69, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/numericality.js: line 70, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+20 errors
+
+addon/validators/local/presence.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/presence.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/presence.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/presence.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/presence.js: line 5, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/presence.js: line 7, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/presence.js: line 8, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+addon/validators/local/presence.js: line 9, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+addon/validators/local/presence.js: line 19, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+9 errors
+
+===== 15 JSHint Errors
+
+
+test-support/helpers/validate-properties.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+test-support/helpers/validate-properties.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+test-support/helpers/validate-properties.js: line 60, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+test-support/helpers/validate-properties.js: line 64, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+
+4 errors
+
+===== 1 JSHint Error
+
+cleaning up...
+Built project successfully. Stored in "/Users/bsl/repos/ember-validations/tmp/class-tests_dist-JoLv6mS3.tmp".
+ok 1 Chrome 75.0 - [2 ms] - JSCS - addon/errors.js: should pass jscs
+not ok 2 Chrome 75.0 - [3 ms] - JSHint | addon/errors.js: should pass jshint
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/dummy.js:69:12)
+                at runTest (http://localhost:7357/assets/test-support.js:3108:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:3093:4)
+                at http://localhost:7357/assets/test-support.js:3235:11
+                at process (http://localhost:7357/assets/test-support.js:2894:24)
+                at begin (http://localhost:7357/assets/test-support.js:2876:2)
+        message: >
+            addon/errors.js should pass jshint.
+            addon/errors.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/errors.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/errors.js: line 3, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/errors.js: line 10, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+            addon/errors.js: line 11, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            
+            5 errors
+        negative: >
+            false
+        browser log: |
+    ...
+ok 3 Chrome 75.0 - [1 ms] - JSCS - addon/index.js: should pass jscs
+not ok 4 Chrome 75.0 - [1 ms] - JSHint | addon/index.js: should pass jshint
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/dummy.js:87:12)
+                at runTest (http://localhost:7357/assets/test-support.js:3108:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:3093:4)
+                at http://localhost:7357/assets/test-support.js:3235:11
+                at process (http://localhost:7357/assets/test-support.js:2894:24)
+                at begin (http://localhost:7357/assets/test-support.js:2876:2)
+        message: >
+            addon/index.js should pass jshint.
+            addon/index.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/index.js: line 3, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+            addon/index.js: line 4, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+            addon/index.js: line 5, col 12, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            
+            4 errors
+        negative: >
+            false
+        browser log: |
+    ...
+ok 5 Chrome 75.0 - [1 ms] - JSCS - addon/messages.js: should pass jscs
+not ok 6 Chrome 75.0 - [1 ms] - JSHint | addon/messages.js: should pass jshint
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/dummy.js:105:12)
+                at runTest (http://localhost:7357/assets/test-support.js:3108:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:3093:4)
+                at http://localhost:7357/assets/test-support.js:3235:11
+                at process (http://localhost:7357/assets/test-support.js:2894:24)
+                at begin (http://localhost:7357/assets/test-support.js:2876:2)
+        message: >
+            addon/messages.js should pass jshint.
+            addon/messages.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/messages.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/messages.js: line 3, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/messages.js: line 5, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+            addon/messages.js: line 6, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/messages.js: line 8, col 21, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+            addon/messages.js: line 10, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/messages.js: line 11, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            
+            8 errors
+        negative: >
+            false
+        browser log: |
+    ...
+ok 7 Chrome 75.0 - [2 ms] - JSCS - addon/mixin.js: should pass jscs
+not ok 8 Chrome 75.0 - [1 ms] - JSHint | addon/mixin.js: should pass jshint
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/dummy.js:123:12)
+                at runTest (http://localhost:7357/assets/test-support.js:3108:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:3093:4)
+                at http://localhost:7357/assets/test-support.js:3235:11
+                at process (http://localhost:7357/assets/test-support.js:2894:24)
+                at begin (http://localhost:7357/assets/test-support.js:2876:2)
+        message: >
+            addon/mixin.js should pass jshint.
+            addon/mixin.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/mixin.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/mixin.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/mixin.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 5, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 21, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 23, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 24, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 24, col 65, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+            addon/mixin.js: line 32, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 33, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 38, col 62, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 38, col 69, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 38, col 95, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+            addon/mixin.js: line 44, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 45, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 46, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 47, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 48, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 59, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 59, col 43, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+            addon/mixin.js: line 60, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 60, col 44, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+            addon/mixin.js: line 65, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 65, col 44, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+            addon/mixin.js: line 70, col 43, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+            addon/mixin.js: line 71, col 44, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+            addon/mixin.js: line 82, col 8, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+            addon/mixin.js: line 89, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 90, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 94, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 98, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 99, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 106, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+            addon/mixin.js: line 108, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 109, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+            addon/mixin.js: line 122, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+            addon/mixin.js: line 124, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 125, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 126, col 12, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 127, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 136, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 138, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+            addon/mixin.js: line 144, col 19, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+            addon/mixin.js: line 151, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 152, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 163, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 164, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 164, col 50, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+            addon/mixin.js: line 166, col 68, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/mixin.js: line 166, col 68, Too many errors. (73% scanned).
+            
+            51 errors
+        negative: >
+            false
+        browser log: |
+    ...
+ok 9 Chrome 75.0 - [0 ms] - JSCS - addon/patterns.js: should pass jscs
+not ok 10 Chrome 75.0 - [0 ms] - JSHint | addon/patterns.js: should pass jshint
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/dummy.js:141:12)
+                at runTest (http://localhost:7357/assets/test-support.js:3108:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:3093:4)
+                at http://localhost:7357/assets/test-support.js:3235:11
+                at process (http://localhost:7357/assets/test-support.js:2894:24)
+                at begin (http://localhost:7357/assets/test-support.js:2876:2)
+        message: >
+            addon/patterns.js should pass jshint.
+            addon/patterns.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/patterns.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/patterns.js: line 3, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/patterns.js: line 5, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+            
+            4 errors
+        negative: >
+            false
+        browser log: |
+    ...
+ok 11 Chrome 75.0 - [2 ms] - JSCS - addon/validators/base.js: should pass jscs
+not ok 12 Chrome 75.0 - [1 ms] - JSHint | addon/validators/base.js: should pass jshint
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/dummy.js:159:12)
+                at runTest (http://localhost:7357/assets/test-support.js:3108:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:3093:4)
+                at http://localhost:7357/assets/test-support.js:3235:11
+                at process (http://localhost:7357/assets/test-support.js:2894:24)
+                at begin (http://localhost:7357/assets/test-support.js:2876:2)
+        message: >
+            addon/validators/base.js should pass jshint.
+            addon/validators/base.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/base.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/base.js: line 3, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/base.js: line 13, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+            addon/validators/base.js: line 14, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/base.js: line 31, col 58, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+            addon/validators/base.js: line 32, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/base.js: line 40, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/base.js: line 47, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/base.js: line 51, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/base.js: line 52, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/base.js: line 61, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/base.js: line 62, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+            addon/validators/base.js: line 64, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/base.js: line 85, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/base.js: line 115, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            
+            16 errors
+        negative: >
+            false
+        browser log: |
+    ...
+ok 13 Chrome 75.0 - [0 ms] - JSCS - addon/validators/local/absence.js: should pass jscs
+not ok 14 Chrome 75.0 - [0 ms] - JSHint | addon/validators/local/absence.js: should pass jshint
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/dummy.js:177:12)
+                at runTest (http://localhost:7357/assets/test-support.js:3108:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:3093:4)
+                at http://localhost:7357/assets/test-support.js:3235:11
+                at process (http://localhost:7357/assets/test-support.js:2894:24)
+                at begin (http://localhost:7357/assets/test-support.js:2876:2)
+        message: >
+            addon/validators/local/absence.js should pass jshint.
+            addon/validators/local/absence.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/absence.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/absence.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/absence.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/absence.js: line 5, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/absence.js: line 7, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/absence.js: line 8, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/absence.js: line 9, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/absence.js: line 19, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            
+            9 errors
+        negative: >
+            false
+        browser log: |
+    ...
+ok 15 Chrome 75.0 - [0 ms] - JSCS - addon/validators/local/acceptance.js: should pass jscs
+not ok 16 Chrome 75.0 - [1 ms] - JSHint | addon/validators/local/acceptance.js: should pass jshint
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/dummy.js:195:12)
+                at runTest (http://localhost:7357/assets/test-support.js:3108:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:3093:4)
+                at http://localhost:7357/assets/test-support.js:3235:11
+                at process (http://localhost:7357/assets/test-support.js:2894:24)
+                at begin (http://localhost:7357/assets/test-support.js:2876:2)
+        message: >
+            addon/validators/local/acceptance.js should pass jshint.
+            addon/validators/local/acceptance.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/acceptance.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/acceptance.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/acceptance.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/acceptance.js: line 5, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/acceptance.js: line 7, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/acceptance.js: line 8, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/acceptance.js: line 9, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/acceptance.js: line 20, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            
+            9 errors
+        negative: >
+            false
+        browser log: |
+    ...
+ok 17 Chrome 75.0 - [0 ms] - JSCS - addon/validators/local/confirmation.js: should pass jscs
+not ok 18 Chrome 75.0 - [0 ms] - JSHint | addon/validators/local/confirmation.js: should pass jshint
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/dummy.js:213:12)
+                at runTest (http://localhost:7357/assets/test-support.js:3108:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:3093:4)
+                at http://localhost:7357/assets/test-support.js:3235:11
+                at process (http://localhost:7357/assets/test-support.js:2894:24)
+                at begin (http://localhost:7357/assets/test-support.js:2876:2)
+        message: >
+            addon/validators/local/confirmation.js should pass jshint.
+            addon/validators/local/confirmation.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/confirmation.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/confirmation.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/confirmation.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/confirmation.js: line 5, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/confirmation.js: line 7, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/confirmation.js: line 8, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/confirmation.js: line 10, col 21, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/confirmation.js: line 11, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/confirmation.js: line 20, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/confirmation.js: line 21, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/confirmation.js: line 22, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            
+            12 errors
+        negative: >
+            false
+        browser log: |
+    ...
+ok 19 Chrome 75.0 - [0 ms] - JSCS - addon/validators/local/exclusion.js: should pass jscs
+not ok 20 Chrome 75.0 - [0 ms] - JSHint | addon/validators/local/exclusion.js: should pass jshint
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/dummy.js:231:12)
+                at runTest (http://localhost:7357/assets/test-support.js:3108:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:3093:4)
+                at http://localhost:7357/assets/test-support.js:3235:11
+                at process (http://localhost:7357/assets/test-support.js:2894:24)
+                at begin (http://localhost:7357/assets/test-support.js:2876:2)
+        message: >
+            addon/validators/local/exclusion.js should pass jshint.
+            addon/validators/local/exclusion.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/exclusion.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/exclusion.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/exclusion.js: line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/exclusion.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/exclusion.js: line 6, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/exclusion.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/exclusion.js: line 7, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/exclusion.js: line 9, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/exclusion.js: line 10, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/exclusion.js: line 11, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/exclusion.js: line 20, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/exclusion.js: line 22, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/exclusion.js: line 23, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            
+            14 errors
+        negative: >
+            false
+        browser log: |
+    ...
+ok 21 Chrome 75.0 - [0 ms] - JSCS - addon/validators/local/format.js: should pass jscs
+not ok 22 Chrome 75.0 - [0 ms] - JSHint | addon/validators/local/format.js: should pass jshint
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/dummy.js:249:12)
+                at runTest (http://localhost:7357/assets/test-support.js:3108:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:3093:4)
+                at http://localhost:7357/assets/test-support.js:3235:11
+                at process (http://localhost:7357/assets/test-support.js:2894:24)
+                at begin (http://localhost:7357/assets/test-support.js:2876:2)
+        message: >
+            addon/validators/local/format.js should pass jshint.
+            addon/validators/local/format.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/format.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/format.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/format.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/format.js: line 5, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/format.js: line 7, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/format.js: line 8, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/format.js: line 9, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/format.js: line 19, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            
+            9 errors
+        negative: >
+            false
+        browser log: |
+    ...
+ok 23 Chrome 75.0 - [0 ms] - JSCS - addon/validators/local/inclusion.js: should pass jscs
+not ok 24 Chrome 75.0 - [0 ms] - JSHint | addon/validators/local/inclusion.js: should pass jshint
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/dummy.js:267:12)
+                at runTest (http://localhost:7357/assets/test-support.js:3108:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:3093:4)
+                at http://localhost:7357/assets/test-support.js:3235:11
+                at process (http://localhost:7357/assets/test-support.js:2894:24)
+                at begin (http://localhost:7357/assets/test-support.js:2876:2)
+        message: >
+            addon/validators/local/inclusion.js should pass jshint.
+            addon/validators/local/inclusion.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/inclusion.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/inclusion.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/inclusion.js: line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/inclusion.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/inclusion.js: line 6, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/inclusion.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/inclusion.js: line 7, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/inclusion.js: line 9, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/inclusion.js: line 10, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/inclusion.js: line 11, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/inclusion.js: line 21, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/inclusion.js: line 22, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/inclusion.js: line 23, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            
+            14 errors
+        negative: >
+            false
+        browser log: |
+    ...
+ok 25 Chrome 75.0 - [0 ms] - JSCS - addon/validators/local/length.js: should pass jscs
+not ok 26 Chrome 75.0 - [1 ms] - JSHint | addon/validators/local/length.js: should pass jshint
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/dummy.js:285:12)
+                at runTest (http://localhost:7357/assets/test-support.js:3108:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:3093:4)
+                at http://localhost:7357/assets/test-support.js:3235:11
+                at process (http://localhost:7357/assets/test-support.js:2894:24)
+                at begin (http://localhost:7357/assets/test-support.js:2876:2)
+        message: >
+            addon/validators/local/length.js should pass jshint.
+            addon/validators/local/length.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/length.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/length.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/length.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/length.js: line 5, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/length.js: line 7, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/length.js: line 8, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/length.js: line 9, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/length.js: line 10, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/length.js: line 12, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/length.js: line 29, col 63, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/length.js: line 44, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/length.js: line 52, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/length.js: line 56, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/length.js: line 60, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/length.js: line 61, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/length.js: line 62, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/length.js: line 71, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/length.js: line 79, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/length.js: line 80, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/length.js: line 81, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            
+            21 errors
+        negative: >
+            false
+        browser log: |
+    ...
+ok 27 Chrome 75.0 - [0 ms] - JSCS - addon/validators/local/numericality.js: should pass jscs
+not ok 28 Chrome 75.0 - [1 ms] - JSHint | addon/validators/local/numericality.js: should pass jshint
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/dummy.js:303:12)
+                at runTest (http://localhost:7357/assets/test-support.js:3108:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:3093:4)
+                at http://localhost:7357/assets/test-support.js:3235:11
+                at process (http://localhost:7357/assets/test-support.js:2894:24)
+                at begin (http://localhost:7357/assets/test-support.js:2876:2)
+        message: >
+            addon/validators/local/numericality.js should pass jshint.
+            addon/validators/local/numericality.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/numericality.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/numericality.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/numericality.js: line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/numericality.js: line 5, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/numericality.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/numericality.js: line 7, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/numericality.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/numericality.js: line 8, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/numericality.js: line 10, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/numericality.js: line 11, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/numericality.js: line 13, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/numericality.js: line 14, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/numericality.js: line 15, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/numericality.js: line 17, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/numericality.js: line 40, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/numericality.js: line 67, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/numericality.js: line 68, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/numericality.js: line 69, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/numericality.js: line 70, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            
+            20 errors
+        negative: >
+            false
+        browser log: |
+    ...
+ok 29 Chrome 75.0 - [0 ms] - JSCS - addon/validators/local/presence.js: should pass jscs
+not ok 30 Chrome 75.0 - [0 ms] - JSHint | addon/validators/local/presence.js: should pass jshint
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/dummy.js:321:12)
+                at runTest (http://localhost:7357/assets/test-support.js:3108:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:3093:4)
+                at http://localhost:7357/assets/test-support.js:3235:11
+                at process (http://localhost:7357/assets/test-support.js:2894:24)
+                at begin (http://localhost:7357/assets/test-support.js:2876:2)
+        message: >
+            addon/validators/local/presence.js should pass jshint.
+            addon/validators/local/presence.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/presence.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/presence.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/presence.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/presence.js: line 5, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/presence.js: line 7, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/presence.js: line 8, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            addon/validators/local/presence.js: line 9, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+            addon/validators/local/presence.js: line 19, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            
+            9 errors
+        negative: >
+            false
+        browser log: |
+    ...
+not ok 31 Chrome 75.0 - [1 ms] - JSCS - app/services/validations.js: should pass jscs
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/dummy.js:330:12)
+                at runTest (http://localhost:7357/assets/test-support.js:3108:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:3093:4)
+                at http://localhost:7357/assets/test-support.js:3235:11
+                at process (http://localhost:7357/assets/test-support.js:2894:24)
+                at begin (http://localhost:7357/assets/test-support.js:2876:2)
+        message: >
+            app/services/validations.js should pass jscs.
+            disallowVar: Variable declarations should use `let` or `const` not `var` at app/services/validations.js :
+                 1 |import Ember from 'ember';
+                 2 |
+                 3 |var set = Ember.set;
+            ------------------^
+                 4 |
+                 5 |export default Ember.Service.extend({
+            requireConstForEmberProperties: Always use `const` when making variables from Ember properties at app/services/validations.js :
+                 1 |import Ember from 'ember';
+                 2 |
+                 3 |var set = Ember.set;
+            ------------------^
+                 4 |
+                 5 |export default Ember.Service.extend({
+            requireObjectDestructuring: Property assignments should use destructuring at app/services/validations.js :
+                 1 |import Ember from 'ember';
+                 2 |
+                 3 |var set = Ember.set;
+            ------------------^
+                 4 |
+                 5 |export default Ember.Service.extend({
+            disallowDirectPropertyAccess: Avoid accessing Ember.set directly at app/services/validations.js :
+                 1 |import Ember from 'ember';
+                 2 |
+                 3 |var set = Ember.set;
+            -----------------------^
+                 4 |
+                 5 |export default Ember.Service.extend({
+            disallowDirectPropertyAccess: Avoid accessing Ember.Service directly at app/services/validations.js :
+                 3 |var set = Ember.set;
+                 4 |
+                 5 |export default Ember.Service.extend({
+            ------------------------------^
+                 6 |  init: function() {
+                 7 |    set(this, 'cache', {});
+            requireEnhancedObjectLiterals: Property assignment should use enhanced object literal function.
+             `{ funcName: function() {} }` is not allowed. at app/services/validations.js :
+                 4 |
+                 5 |export default Ember.Service.extend({
+                 6 |  init: function() {
+            ----------^
+                 7 |    set(this, 'cache', {});
+                 8 |  }
+        negative: >
+            false
+        browser log: |
+    ...
+ok 32 Chrome 75.0 - [1 ms] - JSHint | app/services/validations.js: should pass jshint
+not ok 33 Chrome 75.0 - [2 ms] - JSCS - test-support/helpers/validate-properties.js: should pass jscs
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/dummy.js:348:12)
+                at runTest (http://localhost:7357/assets/test-support.js:3108:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:3093:4)
+                at http://localhost:7357/assets/test-support.js:3235:11
+                at process (http://localhost:7357/assets/test-support.js:2894:24)
+                at begin (http://localhost:7357/assets/test-support.js:2876:2)
+        message: >
+            test-support/helpers/validate-properties.js should pass jscs.
+            requireObjectDestructuring: Property assignments should use destructuring at test-support/helpers/validate-properties.js :
+                 2 |import { test } from 'ember-qunit';
+                 3 |
+                 4 |var run = Ember.run;
+            ------------------^
+                 5 |
+                 6 |function validateValues(object, propertyName, values, isTestForValid) {
+            requireConstForEmberProperties: Always use `const` when making variables from Ember properties at test-support/helpers/validate-properties.js :
+                 2 |import { test } from 'ember-qunit';
+                 3 |
+                 4 |var run = Ember.run;
+            ------------------^
+                 5 |
+                 6 |function validateValues(object, propertyName, values, isTestForValid) {
+            disallowVar: Variable declarations should use `let` or `const` not `var` at test-support/helpers/validate-properties.js :
+                 2 |import { test } from 'ember-qunit';
+                 3 |
+                 4 |var run = Ember.run;
+            ------------------^
+                 5 |
+                 6 |function validateValues(object, propertyName, values, isTestForValid) {
+            disallowDirectPropertyAccess: Avoid accessing Ember.run directly at test-support/helpers/validate-properties.js :
+                 2 |import { test } from 'ember-qunit';
+                 3 |
+                 4 |var run = Ember.run;
+            -----------------------^
+                 5 |
+                 6 |function validateValues(object, propertyName, values, isTestForValid) {
+            disallowVar: Variable declarations should use `let` or `const` not `var` at test-support/helpers/validate-properties.js :
+                 5 |
+                 6 |function validateValues(object, propertyName, values, isTestForValid) {
+                 7 |  var promise = null;
+            --------------------^
+                 8 |  var validatedValues = [];
+                 9 |
+            disallowVar: Variable declarations should use `let` or `const` not `var` at test-support/helpers/validate-properties.js :
+                 6 |function validateValues(object, propertyName, values, isTestForValid) {
+                 7 |  var promise = null;
+                 8 |  var validatedValues = [];
+            -----------------------^
+                 9 |
+                10 |  values.forEach(function(value) {
+            disallowVar: Variable declarations should use `let` or `const` not `var` at test-support/helpers/validate-properties.js :
+                10 |  values.forEach(function(value) {
+                11 |    function handleValidation(errors) {
+                12 |      var hasErrors = object.get('errors.' + propertyName + '.firstObject');
+            -------------------------------------------------^
+                13 |      if ((hasErrors && !isTestForValid) || (!hasErrors && isTestForValid)) {
+                14 |        validatedValues.push(value);
+            requireTemplateStringsForConcatenation: Using manual concatenation with strings is not allowed at test-support/helpers/validate-properties.js :
+                10 |  values.forEach(function(value) {
+                11 |    function handleValidation(errors) {
+                12 |      var hasErrors = object.get('errors.' + propertyName + '.firstObject');
+            ---------------------------------------------------^
+                13 |      if ((hasErrors && !isTestForValid) || (!hasErrors && isTestForValid)) {
+                14 |        validatedValues.push(value);
+            requireTemplateStringsForConcatenation: Using manual concatenation with strings is not allowed at test-support/helpers/validate-properties.js :
+                10 |  values.forEach(function(value) {
+                11 |    function handleValidation(errors) {
+                12 |      var hasErrors = object.get('errors.' + propertyName + '.firstObject');
+            ------------------------------------------------------------------^
+                13 |      if ((hasErrors && !isTestForValid) || (!hasErrors && isTestForValid)) {
+                14 |        validatedValues.push(value);
+            disallowVar: Variable declarations should use `let` or `const` not `var` at test-support/helpers/validate-properties.js :
+                18 |    run(object, 'set', propertyName, value);
+                19 |
+                20 |    var objectPromise = null;
+            -------------------------^
+                21 |    run(function() {
+                22 |      objectPromise = object.validate().then(handleValidation, handleValidation);
+            disallowVar: Variable declarations should use `let` or `const` not `var` at test-support/helpers/validate-properties.js :
+                35 |
+                36 |function testPropertyValues(propertyName, values, isTestForValid, context) {
+                37 |  var validOrInvalid = (isTestForValid ? 'Valid' : 'Invalid');
+            ----------------------------------------^
+                38 |  var testName = validOrInvalid + ' ' + propertyName;
+                39 |
+            disallowVar: Variable declarations should use `let` or `const` not `var` at test-support/helpers/validate-properties.js :
+                36 |function testPropertyValues(propertyName, values, isTestForValid, context) {
+                37 |  var validOrInvalid = (isTestForValid ? 'Valid' : 'Invalid');
+                38 |  var testName = validOrInvalid + ' ' + propertyName;
+            ------------------------------------^
+                39 |
+                40 |  test(testName, function(assert) {
+            requireTemplateStringsForConcatenation: Using manual concatenation with strings is not allowed at test-support/helpers/validate-properties.js :
+                36 |function testPropertyValues(propertyName, values, isTestForValid, context) {
+                37 |  var validOrInvalid = (isTestForValid ? 'Valid' : 'Invalid');
+                38 |  var testName = validOrInvalid + ' ' + propertyName;
+            ----------------------------------------^
+                39 |
+                40 |  test(testName, function(assert) {
+            requireTemplateStringsForConcatenation: Using manual concatenation with strings is not allowed at test-support/helpers/validate-properties.js :
+                36 |function testPropertyValues(propertyName, values, isTestForValid, context) {
+                37 |  var validOrInvalid = (isTestForValid ? 'Valid' : 'Invalid');
+                38 |  var testName = validOrInvalid + ' ' + propertyName;
+            ----------------------------------------------^
+                39 |
+                40 |  test(testName, function(assert) {
+            disallowVar: Variable declarations should use `let` or `const` not `var` at test-support/helpers/validate-properties.js :
+                39 |
+                40 |  test(testName, function(assert) {
+                41 |    var object = this.subject();
+            --------------------------^
+                42 |
+                43 |    if (context && typeof context === 'function') {
+            disallowVar: Variable declarations should use `let` or `const` not `var` at test-support/helpers/validate-properties.js :
+                47 |    // Use QUnit.dump.parse so null and undefined can be printed as literal 'null' and
+                48 |    // 'undefined' strings in the assert message.
+                49 |    var valuesString = QUnit.dump.parse(values).replace(/\n(\s+)?/g, '').replace(/,/g, ', ');
+            ---------------------------------------------------------^
+                50 |    var assertMessage = 'Expected ' + propertyName + ' to have ' + validOrInvalid.toLowerCase() +
+                51 |      ' values: ' + valuesString;
+            disallowVar: Variable declarations should use `let` or `const` not `var` at test-support/helpers/validate-properties.js :
+                48 |    // 'undefined' strings in the assert message.
+                49 |    var valuesString = QUnit.dump.parse(values).replace(/\n(\s+)?/g, '').replace(/,/g, ', ');
+                50 |    var assertMessage = 'Expected ' + propertyName + ' to have ' + validOrInvalid.toLowerCase() +
+            ------------^
+                51 |      ' values: ' + valuesString;
+                52 |
+            requireTemplateStringsForConcatenation: Using manual concatenation with strings is not allowed at test-support/helpers/validate-properties.js :
+                48 |    // 'undefined' strings in the assert message.
+                49 |    var valuesString = QUnit.dump.parse(values).replace(/\n(\s+)?/g, '').replace(/,/g, ', ');
+                50 |    var assertMessage = 'Expected ' + propertyName + ' to have ' + validOrInvalid.toLowerCase() +
+            --------------------------------------------^
+                51 |      ' values: ' + valuesString;
+                52 |
+            requireTemplateStringsForConcatenation: Using manual concatenation with strings is not allowed at test-support/helpers/validate-properties.js :
+                48 |    // 'undefined' strings in the assert message.
+                49 |    var valuesString = QUnit.dump.parse(values).replace(/\n(\s+)?/g, '').replace(/,/g, ', ');
+                50 |    var assertMessage = 'Expected ' + propertyName + ' to have ' + validOrInvalid.toLowerCase() +
+            -----------------------------------------------------------^
+                51 |      ' values: ' + valuesString;
+                52 |
+            requireTemplateStringsForConcatenation: Using manual concatenation with strings is not allowed at test-support/helpers/validate-properties.js :
+                48 |    // 'undefined' strings in the assert message.
+                49 |    var valuesString = QUnit.dump.parse(values).replace(/\n(\s+)?/g, '').replace(/,/g, ', ');
+                50 |    var assertMessage = 'Expected ' + propertyName + ' to have ' + validOrInvalid.toLowerCase() +
+            -------------------------------------------------------------------------^
+                51 |      ' values: ' + valuesString;
+                52 |
+            requireTemplateStringsForConcatenation: Using manual concatenation with strings is not allowed at test-support/helpers/validate-properties.js :
+                49 |    var valuesString = QUnit.dump.parse(values).replace(/\n(\s+)?/g, '').replace(/,/g, ', ');
+                50 |    var assertMessage = 'Expected ' + propertyName + ' to have ' + validOrInvalid.toLowerCase() +
+                51 |      ' values: ' + valuesString;
+            --------------------------^
+                52 |
+                53 |    return validateValues(object, propertyName, values, isTestForValid)
+        negative: >
+            false
+        browser log: |
+    ...
+not ok 34 Chrome 75.0 - [1 ms] - JSHint | test-support/helpers/validate-properties.js: should pass jshint
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/dummy.js:357:12)
+                at runTest (http://localhost:7357/assets/test-support.js:3108:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:3093:4)
+                at http://localhost:7357/assets/test-support.js:3235:11
+                at process (http://localhost:7357/assets/test-support.js:2894:24)
+                at begin (http://localhost:7357/assets/test-support.js:2876:2)
+        message: >
+            test-support/helpers/validate-properties.js should pass jshint.
+            test-support/helpers/validate-properties.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            test-support/helpers/validate-properties.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+            test-support/helpers/validate-properties.js: line 60, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+            test-support/helpers/validate-properties.js: line 64, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+            
+            4 errors
+        negative: >
+            false
+        browser log: |
+    ...
+ok 35 Chrome 75.0 - [0 ms] - JSCS - app.js: should pass jscs
+ok 36 Chrome 75.0 - [0 ms] - JSHint | app.js: should pass jshint
+ok 37 Chrome 75.0 - [0 ms] - JSCS - controllers/foo.js: should pass jscs
+ok 38 Chrome 75.0 - [1 ms] - JSHint | controllers/foo.js: should pass jshint
+ok 39 Chrome 75.0 - [1 ms] - JSCS - helpers/destroy-app.js: should pass jscs
+ok 40 Chrome 75.0 - [0 ms] - JSHint | helpers/destroy-app.js: should pass jshint
+ok 41 Chrome 75.0 - [0 ms] - JSCS - helpers/module-for-acceptance.js: should pass jscs
+ok 42 Chrome 75.0 - [1 ms] - JSHint | helpers/module-for-acceptance.js: should pass jshint
+ok 43 Chrome 75.0 - [2 ms] - JSCS - helpers/resolver.js: should pass jscs
+ok 44 Chrome 75.0 - [0 ms] - JSHint | helpers/resolver.js: should pass jshint
+ok 45 Chrome 75.0 - [1 ms] - JSCS - helpers/start-app.js: should pass jscs
+ok 46 Chrome 75.0 - [0 ms] - JSHint | helpers/start-app.js: should pass jshint
+ok 47 Chrome 75.0 - [1 ms] - JSCS - resolver.js: should pass jscs
+ok 48 Chrome 75.0 - [0 ms] - JSHint | resolver.js: should pass jshint
+ok 49 Chrome 75.0 - [1 ms] - JSCS - router.js: should pass jscs
+ok 50 Chrome 75.0 - [0 ms] - JSHint | router.js: should pass jshint
+ok 51 Chrome 75.0 - [0 ms] - JSCS - test-helper.js: should pass jscs
+ok 52 Chrome 75.0 - [1 ms] - JSHint | test-helper.js: should pass jshint
+ok 53 Chrome 75.0 - [1 ms] - JSCS - unit/conditional-validators-test.js: should pass jscs
+ok 54 Chrome 75.0 - [0 ms] - JSHint | unit/conditional-validators-test.js: should pass jshint
+ok 55 Chrome 75.0 - [0 ms] - JSCS - unit/controller-test.js: should pass jscs
+ok 56 Chrome 75.0 - [0 ms] - JSHint | unit/controller-test.js: should pass jshint
+ok 57 Chrome 75.0 - [0 ms] - JSCS - unit/errors-test.js: should pass jscs
+ok 58 Chrome 75.0 - [0 ms] - JSHint | unit/errors-test.js: should pass jshint
+ok 59 Chrome 75.0 - [0 ms] - JSCS - unit/helpers/validate-properties-test.js: should pass jscs
+ok 60 Chrome 75.0 - [1 ms] - JSHint | unit/helpers/validate-properties-test.js: should pass jshint
+ok 61 Chrome 75.0 - [1 ms] - JSCS - unit/validate-test.js: should pass jscs
+ok 62 Chrome 75.0 - [1 ms] - JSHint | unit/validate-test.js: should pass jshint
+ok 63 Chrome 75.0 - [1 ms] - JSCS - unit/validators/base-test.js: should pass jscs
+ok 64 Chrome 75.0 - [0 ms] - JSHint | unit/validators/base-test.js: should pass jshint
+ok 65 Chrome 75.0 - [0 ms] - JSCS - unit/validators/local/absence-test.js: should pass jscs
+ok 66 Chrome 75.0 - [1 ms] - JSHint | unit/validators/local/absence-test.js: should pass jshint
+ok 67 Chrome 75.0 - [1 ms] - JSCS - unit/validators/local/acceptance-test.js: should pass jscs
+ok 68 Chrome 75.0 - [0 ms] - JSHint | unit/validators/local/acceptance-test.js: should pass jshint
+ok 69 Chrome 75.0 - [0 ms] - JSCS - unit/validators/local/confirmation-test.js: should pass jscs
+ok 70 Chrome 75.0 - [1 ms] - JSHint | unit/validators/local/confirmation-test.js: should pass jshint
+ok 71 Chrome 75.0 - [0 ms] - JSCS - unit/validators/local/exclusion-test.js: should pass jscs
+ok 72 Chrome 75.0 - [0 ms] - JSHint | unit/validators/local/exclusion-test.js: should pass jshint
+ok 73 Chrome 75.0 - [0 ms] - JSCS - unit/validators/local/format-test.js: should pass jscs
+ok 74 Chrome 75.0 - [2 ms] - JSHint | unit/validators/local/format-test.js: should pass jshint
+ok 75 Chrome 75.0 - [1 ms] - JSCS - unit/validators/local/inclusion-test.js: should pass jscs
+ok 76 Chrome 75.0 - [1 ms] - JSHint | unit/validators/local/inclusion-test.js: should pass jshint
+ok 77 Chrome 75.0 - [1 ms] - JSCS - unit/validators/local/length-test.js: should pass jscs
+ok 78 Chrome 75.0 - [0 ms] - JSHint | unit/validators/local/length-test.js: should pass jshint
+ok 79 Chrome 75.0 - [1 ms] - JSCS - unit/validators/local/numericality-test.js: should pass jscs
+ok 80 Chrome 75.0 - [1 ms] - JSHint | unit/validators/local/numericality-test.js: should pass jshint
+ok 81 Chrome 75.0 - [1 ms] - JSCS - unit/validators/local/presence-test.js: should pass jscs
+ok 82 Chrome 75.0 - [1 ms] - JSHint | unit/validators/local/presence-test.js: should pass jshint
+ok 83 Chrome 75.0 - [683 ms] - Conditional Validations: if with function
+ok 84 Chrome 75.0 - [48 ms] - Conditional Validations: if with property reference
+ok 85 Chrome 75.0 - [65 ms] - Conditional Validations: if with function reference
+ok 86 Chrome 75.0 - [29 ms] - Conditional Validations: unless with function
+ok 87 Chrome 75.0 - [38 ms] - Conditional Validations: unless with property reference
+ok 88 Chrome 75.0 - [43 ms] - Conditional Validations: unless with function reference
+ok 89 Chrome 75.0 - [66 ms] - Controller sanity test: does not blow up
+ok 90 Chrome 75.0 - [55 ms] - Errors test: validations are run on instantiation - invalid
+ok 91 Chrome 75.0 - [24 ms] - Errors test: validations are run on instantiation - valid
+ok 92 Chrome 75.0 - [34 ms] - Errors test: when errors are resolved
+ok 93 Chrome 75.0 - [69 ms] - Unit - Foo Controller Test: Valid bar
+ok 94 Chrome 75.0 - [86 ms] - Unit - Foo Controller Test: Invalid bar
+ok 95 Chrome 75.0 - [81 ms] - Unit - Foo Controller Test: Valid baz
+ok 96 Chrome 75.0 - [85 ms] - Unit - Foo Controller Test: Invalid baz
+ok 97 Chrome 75.0 - [81 ms] - Unit - Foo Controller Test: Valid baz
+ok 98 Chrome 75.0 - [89 ms] - Unit - Ensure validate properties test helpers fail when invalid: Valid bar
+ok 99 Chrome 75.0 - [96 ms] - Unit - Ensure validate properties test helpers fail when invalid: Valid bar
+ok 100 Chrome 75.0 - [78 ms] - Unit - Ensure validate properties test helpers fail when invalid: Valid bar
+ok 101 Chrome 75.0 - [92 ms] - Unit - Ensure validate properties test helpers fail when invalid: Invalid bar
+ok 102 Chrome 75.0 - [81 ms] - Unit - Ensure validate properties test helpers fail when invalid: Invalid bar
+ok 103 Chrome 75.0 - [74 ms] - Unit - Ensure validate properties test helpers fail when invalid: Invalid bar
+ok 104 Chrome 75.0 - [97 ms] - Unit - Ensure validate properties test helpers fail when invalid: Invalid baz
+ok 105 Chrome 75.0 - [80 ms] - Unit - Ensure validate properties test helpers fail when invalid: Valid baz
+ok 106 Chrome 75.0 - [75 ms] - Unit - Ensure validate properties test helpers fail when invalid: Valid baz
+ok 107 Chrome 75.0 - [98 ms] - Unit - Ensure validate properties test helpers fail when invalid: Valid baz
+ok 108 Chrome 75.0 - [164 ms] - Unit - Ensure validate properties test helpers fail when invalid: Invalid baz
+ok 109 Chrome 75.0 - [99 ms] - Unit - Ensure validate properties test helpers fail when invalid: Invalid baz
+ok 110 Chrome 75.0 - [156 ms] - Unit - Ensure validate properties test helpers fail when invalid: Invalid baz
+ok 111 Chrome 75.0 - [73 ms] - Unit - Ensure validate properties test helpers fail when invalid: Invalid baz
+ok 112 Chrome 75.0 - [45 ms] - Validate test: returns a promise
+ok 113 Chrome 75.0 - [43 ms] - Validate test: isInvalid tracks isValid
+ok 114 Chrome 75.0 - [65 ms] - Validate test: runs all validations
+ok 115 Chrome 75.0 - [68 ms] - Validate test: it can be mixed into an Ember Object
+ok 116 Chrome 75.0 - [79 ms] - Relationship validators: validates other validatable property
+ok 117 Chrome 75.0 - [53 ms] - Relationship validators: validates array of validable objects
+    ---
+        browser log: |
+            WARN: DEPRECATION: The `content` property of `<(subclass of Ember.ArrayProxy):ember991>` is an `Ember.Binding` connected to `model.friends`, but `Ember.Binding` is deprecated. Consider using an `alias` computed property instead. [deprecation id: ember-metal.binding] See http://emberjs.com/deprecations/v2.x#toc_ember-binding for more details.
+                    at logDeprecationStackTrace (http://localhost:7357/assets/vendor.js:16708:19)
+                    at HANDLERS.<computed> (http://localhost:7357/assets/vendor.js:16818:7)
+                    at raiseOnDeprecation (http://localhost:7357/assets/vendor.js:16738:12)
+                    at HANDLERS.<computed> (http://localhost:7357/assets/vendor.js:16818:7)
+                    at invoke (http://localhost:7357/assets/vendor.js:16834:7)
+                    at deprecate (http://localhost:7357/assets/vendor.js:16802:32)
+                    at Object.deprecate (http://localhost:7357/assets/vendor.js:29667:37)
+                    at fireDeprecations (http://localhost:7357/assets/vendor.js:28386:22)
+                    at Binding.connect (http://localhost:7357/assets/vendor.js:28261:7)
+    ...
+ok 118 Chrome 75.0 - [71 ms] - Relationship validators: revalidates arrays when they are replaced
+    ---
+        browser log: |
+            WARN: DEPRECATION: The `content` property of `<(subclass of Ember.ArrayProxy):ember1019>` is an `Ember.Binding` connected to `model.friends`, but `Ember.Binding` is deprecated. Consider using an `alias` computed property instead. [deprecation id: ember-metal.binding] See http://emberjs.com/deprecations/v2.x#toc_ember-binding for more details.
+                    at logDeprecationStackTrace (http://localhost:7357/assets/vendor.js:16708:19)
+                    at HANDLERS.<computed> (http://localhost:7357/assets/vendor.js:16818:7)
+                    at raiseOnDeprecation (http://localhost:7357/assets/vendor.js:16738:12)
+                    at HANDLERS.<computed> (http://localhost:7357/assets/vendor.js:16818:7)
+                    at invoke (http://localhost:7357/assets/vendor.js:16834:7)
+                    at deprecate (http://localhost:7357/assets/vendor.js:16802:32)
+                    at Object.deprecate (http://localhost:7357/assets/vendor.js:29667:37)
+                    at fireDeprecations (http://localhost:7357/assets/vendor.js:28386:22)
+                    at Binding.connect (http://localhost:7357/assets/vendor.js:28261:7)
+            WARN: DEPRECATION: The `content` property of `<(subclass of Ember.ArrayProxy):ember1023>` is an `Ember.Binding` connected to `model.friends`, but `Ember.Binding` is deprecated. Consider using an `alias` computed property instead. [deprecation id: ember-metal.binding] See http://emberjs.com/deprecations/v2.x#toc_ember-binding for more details.
+                    at logDeprecationStackTrace (http://localhost:7357/assets/vendor.js:16708:19)
+                    at HANDLERS.<computed> (http://localhost:7357/assets/vendor.js:16818:7)
+                    at raiseOnDeprecation (http://localhost:7357/assets/vendor.js:16738:12)
+                    at HANDLERS.<computed> (http://localhost:7357/assets/vendor.js:16818:7)
+                    at invoke (http://localhost:7357/assets/vendor.js:16834:7)
+                    at deprecate (http://localhost:7357/assets/vendor.js:16802:32)
+                    at Object.deprecate (http://localhost:7357/assets/vendor.js:29667:37)
+                    at fireDeprecations (http://localhost:7357/assets/vendor.js:28386:22)
+                    at Binding.connect (http://localhost:7357/assets/vendor.js:28261:7)
+            WARN: DEPRECATION: The `content` property of `<(subclass of Ember.ArrayProxy):ember1027>` is an `Ember.Binding` connected to `model.friends`, but `Ember.Binding` is deprecated. Consider using an `alias` computed property instead. [deprecation id: ember-metal.binding] See http://emberjs.com/deprecations/v2.x#toc_ember-binding for more details.
+                    at logDeprecationStackTrace (http://localhost:7357/assets/vendor.js:16708:19)
+                    at HANDLERS.<computed> (http://localhost:7357/assets/vendor.js:16818:7)
+                    at raiseOnDeprecation (http://localhost:7357/assets/vendor.js:16738:12)
+                    at HANDLERS.<computed> (http://localhost:7357/assets/vendor.js:16818:7)
+                    at invoke (http://localhost:7357/assets/vendor.js:16834:7)
+                    at deprecate (http://localhost:7357/assets/vendor.js:16802:32)
+                    at Object.deprecate (http://localhost:7357/assets/vendor.js:29667:37)
+                    at fireDeprecations (http://localhost:7357/assets/vendor.js:28386:22)
+                    at Binding.connect (http://localhost:7357/assets/vendor.js:28261:7)
+    ...
+ok 119 Chrome 75.0 - [48 ms] - validator class lookup order: should lookup in project namespace first
+ok 120 Chrome 75.0 - [63 ms] - validator class lookup order: will lookup both local and remote validators of similar name
+ok 121 Chrome 75.0 - [20 ms] - validator class lookup order: should prefer lookup in just "validators" before "native"
+ok 122 Chrome 75.0 - [46 ms] - validator class lookup order: should store validators in cache for faster lookup
+ok 123 Chrome 75.0 - [43 ms] - inline validations: mixed validation syntax
+ok 124 Chrome 75.0 - [45 ms] - inline validations: concise validation syntax
+ok 125 Chrome 75.0 - [27 ms] - Base Validator: when value is not empty
+ok 126 Chrome 75.0 - [34 ms] - Base Validator: validator has isInvalid flag
+ok 127 Chrome 75.0 - [35 ms] - Base Validator: generates dependentValidationKeys on the model
+ok 128 Chrome 75.0 - [27 ms] - Base Validator: inactive validators should be considered valid
+ok 129 Chrome 75.0 - [4 ms] - Absence Validator: when value is not empty
+ok 130 Chrome 75.0 - [3 ms] - Absence Validator: when value is made empty
+ok 131 Chrome 75.0 - [2 ms] - Absence Validator: when options is true
+ok 132 Chrome 75.0 - [3 ms] - Acceptance Validator: when attribute is true
+ok 133 Chrome 75.0 - [2 ms] - Acceptance Validator: when attribute is not true
+ok 134 Chrome 75.0 - [2 ms] - Acceptance Validator: when attribute is value of 1
+ok 135 Chrome 75.0 - [3 ms] - Acceptance Validator: when attribute value is 2 and accept value is 2
+ok 136 Chrome 75.0 - [2 ms] - Acceptance Validator: when attribute value is 1 and accept value is 2
+ok 137 Chrome 75.0 - [3 ms] - Acceptance Validator: when options is true
+ok 138 Chrome 75.0 - [2 ms] - Acceptance Validator: when no message is passed
+ok 139 Chrome 75.0 - [51 ms] - Confirmation Validator: when values match
+ok 140 Chrome 75.0 - [35 ms] - Confirmation Validator: when values do not match
+ok 141 Chrome 75.0 - [39 ms] - Confirmation Validator: when original is null
+ok 142 Chrome 75.0 - [43 ms] - Confirmation Validator: when confirmation is null
+ok 143 Chrome 75.0 - [38 ms] - Confirmation Validator: when options is true
+ok 144 Chrome 75.0 - [68 ms] - Confirmation Validator: message integration on model, prints message on Confirmation property
+ok 145 Chrome 75.0 - [5 ms] - Exclusion Validator: when value is not in the list
+ok 146 Chrome 75.0 - [2 ms] - Exclusion Validator: when value is in the list
+ok 147 Chrome 75.0 - [2 ms] - Exclusion Validator: when allowing blank
+ok 148 Chrome 75.0 - [5 ms] - Exclusion Validator: when not allowing blank
+ok 149 Chrome 75.0 - [2 ms] - Exclusion Validator: when value is not in the range
+ok 150 Chrome 75.0 - [8 ms] - Exclusion Validator: when value is in the range
+ok 151 Chrome 75.0 - [2 ms] - Exclusion Validator: when options is an array
+ok 152 Chrome 75.0 - [10 ms] - Exclusion Validator: when no message is passed
+ok 153 Chrome 75.0 - [8 ms] - Format Validator: when matching format
+ok 154 Chrome 75.0 - [4 ms] - Format Validator: when not matching format
+ok 155 Chrome 75.0 - [4 ms] - Format Validator: when allowing blank
+ok 156 Chrome 75.0 - [5 ms] - Format Validator: when not allowing blank
+ok 157 Chrome 75.0 - [2 ms] - Format Validator: when options is regexp
+ok 158 Chrome 75.0 - [4 ms] - Format Validator: when no message is passed
+ok 159 Chrome 75.0 - [3 ms] - Inclusion Validator: when value is in the list
+ok 160 Chrome 75.0 - [17 ms] - Inclusion Validator: when value is not in the list
+ok 161 Chrome 75.0 - [8 ms] - Inclusion Validator: when allowing blank
+ok 162 Chrome 75.0 - [2 ms] - Inclusion Validator: when not allowing blank
+ok 163 Chrome 75.0 - [4 ms] - Inclusion Validator: when value is in the range
+ok 164 Chrome 75.0 - [4 ms] - Inclusion Validator: when value is not in the range
+ok 165 Chrome 75.0 - [3 ms] - Inclusion Validator: when options is array
+ok 166 Chrome 75.0 - [2 ms] - Inclusion Validator: when no message is passed
+ok 167 Chrome 75.0 - [2 ms] - Length Validator: when allowed length is 3 and value length is 3
+ok 168 Chrome 75.0 - [5 ms] - Length Validator: when allowed length is 3 and value length is 4
+ok 169 Chrome 75.0 - [3 ms] - Length Validator: when allowed length is 3 and value length is 2
+ok 170 Chrome 75.0 - [5 ms] - Length Validator: when allowing blank and allowed length is 3
+ok 171 Chrome 75.0 - [25 ms] - Length Validator: when allowing blank and minimum length is 3 and maximum length is 100
+ok 172 Chrome 75.0 - [10 ms] - Length Validator: when not allowing blank and allowed length is 3
+ok 173 Chrome 75.0 - [5 ms] - Length Validator: when allowed length is 3 and a different tokenizer
+ok 174 Chrome 75.0 - [2 ms] - Length Validator: when allowed length minimum is 3 and value length is 3
+ok 175 Chrome 75.0 - [5 ms] - Length Validator: when allowed length minimum is 3 and value length is 2
+ok 176 Chrome 75.0 - [5 ms] - Length Validator: when allowed length maximum is 3 and value length is 3
+ok 177 Chrome 75.0 - [9 ms] - Length Validator: when allowed length maximum is 3 and value length is 4
+ok 178 Chrome 75.0 - [2 ms] - Length Validator: when allowed length maximum is 3 and value is blank
+ok 179 Chrome 75.0 - [4 ms] - Length Validator: when options is a number
+ok 180 Chrome 75.0 - [3 ms] - Length Validator: when options is a number and value is undefined
+ok 181 Chrome 75.0 - [2 ms] - Length Validator: when allowed length is 3, value length is 4 and no message is set
+ok 182 Chrome 75.0 - [4 ms] - Length Validator: when allowed length minimum is 3, value length is 2 and no message is set
+ok 183 Chrome 75.0 - [4 ms] - Length Validator: when allowed length maximum is 3, value length is 4 and no message is set
+ok 184 Chrome 75.0 - [3 ms] - Length Validator: when value is non-string, then the value is still checked
+ok 185 Chrome 75.0 - [11 ms] - Length Validator: when using a property instead of a number
+ok 186 Chrome 75.0 - [9 ms] - Numericality Validator: when value is a number
+ok 187 Chrome 75.0 - [3 ms] - Numericality Validator: when value is a decimal number
+ok 188 Chrome 75.0 - [3 ms] - Numericality Validator: when value is a decimal number in a string with a leading dot
+ok 189 Chrome 75.0 - [4 ms] - Numericality Validator: when value is not a number
+ok 190 Chrome 75.0 - [2 ms] - Numericality Validator: when no value
+ok 191 Chrome 75.0 - [3 ms] - Numericality Validator: when no value and allowing blank
+ok 192 Chrome 75.0 - [18 ms] - Numericality Validator: when bad value and allowing blank
+ok 193 Chrome 75.0 - [2 ms] - Numericality Validator: when only allowing integers and value is integer
+ok 194 Chrome 75.0 - [2 ms] - Numericality Validator: when only allowing integers and value is not integer
+ok 195 Chrome 75.0 - [2 ms] - Numericality Validator: when only integer and no message is passed
+ok 196 Chrome 75.0 - [3 ms] - Numericality Validator: when only integer is passed directly
+ok 197 Chrome 75.0 - [2 ms] - Numericality Validator: when only allowing values greater than 10 and value is greater than 10
+ok 198 Chrome 75.0 - [2 ms] - Numericality Validator: when only allowing values greater than 10 and value is 10
+ok 199 Chrome 75.0 - [2 ms] - Numericality Validator: when only allowing values greater than or assert.deepEqual to 10 and value is 10
+ok 200 Chrome 75.0 - [3 ms] - Numericality Validator: when only allowing values greater than or assert.deepEqual to 10 and value is 9
+ok 201 Chrome 75.0 - [5 ms] - Numericality Validator: when only allowing values less than 10 and value is less than 10
+ok 202 Chrome 75.0 - [24 ms] - Numericality Validator: when only allowing values less than 10 and value is 10
+ok 203 Chrome 75.0 - [8 ms] - Numericality Validator: when only allowing values less than or assert.deepEqual to 10 and value is 10
+ok 204 Chrome 75.0 - [4 ms] - Numericality Validator: when only allowing values less than or assert.deepEqual to 10 and value is 11
+ok 205 Chrome 75.0 - [7 ms] - Numericality Validator: when only allowing values equal to 10 and value is 10
+ok 206 Chrome 75.0 - [24 ms] - Numericality Validator: when only allowing values equal to 10 and value is 11
+ok 207 Chrome 75.0 - [7 ms] - Numericality Validator: when only allowing value equal to 0 and value is 1
+ok 208 Chrome 75.0 - [7 ms] - Numericality Validator: when only allowing odd values and the value is odd
+ok 209 Chrome 75.0 - [7 ms] - Numericality Validator: when only allowing odd values and the value is even
+ok 210 Chrome 75.0 - [3 ms] - Numericality Validator: when only allowing even values and the value is even
+ok 211 Chrome 75.0 - [3 ms] - Numericality Validator: when only allowing even values and the value is odd
+ok 212 Chrome 75.0 - [6 ms] - Numericality Validator: when value refers to another present property
+ok 213 Chrome 75.0 - [2 ms] - Numericality Validator: when options is true
+ok 214 Chrome 75.0 - [2 ms] - Numericality Validator: when equal to  and no message is passed
+ok 215 Chrome 75.0 - [4 ms] - Numericality Validator: when greater than and no message is passed
+ok 216 Chrome 75.0 - [4 ms] - Numericality Validator: when greater than or equal to and no message is passed
+ok 217 Chrome 75.0 - [7 ms] - Numericality Validator: when less than and no message is passed
+ok 218 Chrome 75.0 - [3 ms] - Numericality Validator: when less than or equal to and no message is passed
+ok 219 Chrome 75.0 - [22 ms] - Numericality Validator: when odd and no message is passed
+ok 220 Chrome 75.0 - [3 ms] - Numericality Validator: when even and no message is passed
+ok 221 Chrome 75.0 - [5 ms] - Numericality Validator: when other messages are passed but not a numericality message
+ok 222 Chrome 75.0 - [8 ms] - Numericality Validator: when greaterThan fails and a greaterThan message is passed but not a numericality message
+ok 223 Chrome 75.0 - [7 ms] - Numericality Validator: numericality validators don't call addObserver on null props
+ok 224 Chrome 75.0 - [3 ms] - Presence Validator: when value is not empty
+ok 225 Chrome 75.0 - [5 ms] - Presence Validator: when value is empty
+ok 226 Chrome 75.0 - [4 ms] - Presence Validator: when options is true
+ok 227 Chrome 75.0 - [4 ms] - Presence Validator: when value is blank
+
+1..227
+# tests 227
+# pass  209
+# skip  0
+# fail  18

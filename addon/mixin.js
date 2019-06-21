@@ -1,7 +1,8 @@
+/*jshint esversion: 6 */
+
 import Ember from 'ember';
 import Errors from 'ember-validations/errors';
 import Base from 'ember-validations/validators/base';
-import getOwner from 'ember-getowner-polyfill';
 
 const {
   A: emberArray,
@@ -11,6 +12,7 @@ const {
   computed,
   computed: { alias, not },
   get,
+  getOwner,
   isArray,
   isNone,
   isPresent,
@@ -113,11 +115,25 @@ export default Mixin.create(setValidityMixin, {
 
     if (get(this, 'validations') === undefined) {
       this.validations = {};
+    } else {
+      this.validations = get(this, 'validations');
     }
 
     this.buildValidators();
 
     this.validators.forEach((validator) => {
+
+      let names = validator.property.split('.');
+      let objectPointer = this.errors;
+      for (let i = 0; i < names.length; i++) {
+        let newObjectPointer = objectPointer[names[i]];
+        if (newObjectPointer === undefined) {
+          newObjectPointer = emberArray();
+          set(objectPointer, names[i], newObjectPointer);
+        }
+        objectPointer = newObjectPointer;
+      }
+
       validator.addObserver('errors.[]', this, function(sender) {
         let errors = emberArray();
 

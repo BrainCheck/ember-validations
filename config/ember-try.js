@@ -1,43 +1,11 @@
 /*jshint node:true*/
+
 module.exports = {
   scenarios: [
     {
       name: 'default',
       bower: {
         dependencies: { }
-      }
-    },
-    {
-      name: 'ember-1.11',
-      bower: {
-        dependencies: {
-          'ember': '~1.11.0'
-        },
-        resolutions: {
-          'ember': '~1.11.0'
-        }
-      }
-    },
-    {
-      name: 'ember-1.12',
-      bower: {
-        dependencies: {
-          'ember': '~1.12.0'
-        },
-        resolutions: {
-          'ember': '~1.12.0'
-        }
-      }
-    },
-    {
-      name: 'ember-1.13',
-      bower: {
-        dependencies: {
-          'ember': '~1.13.0'
-        },
-        resolutions: {
-          'ember': '~1.13.0'
-        }
       }
     },
     {

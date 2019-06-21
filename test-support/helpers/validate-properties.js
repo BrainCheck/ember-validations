@@ -1,7 +1,9 @@
+/* jshint ignore:start */
+
 import Ember from 'ember';
 import { test } from 'ember-qunit';
 
-var run = Ember.run;
+const run = Ember.run;
 
 function validateValues(object, propertyName, values, isTestForValid) {
   var promise = null;
@@ -64,3 +66,4 @@ export function testValidPropertyValues(propertyName, values, context) {
 export function testInvalidPropertyValues(propertyName, values, context) {
   testPropertyValues(propertyName, values, false, context);
 }
+/* jshint ignore:end */
